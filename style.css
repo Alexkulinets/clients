@@ -1,0 +1,140 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 150px;
+}
+
+.main__name {
+  background-image: url("./Img/Group.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  color: #212529;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px; /* 120% */
+}
+
+.main__block {
+  width: 87.5%;
+  height: 450px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.main__block-container {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  background: #4F9CF9;
+  padding: 15px 0;
+}
+
+.main__block-container:nth-child(1) {
+  width: 450px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  background: white;
+}
+
+.first__block {
+  width: 87.5%;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  border-bottom: solid 1.5px;
+}
+
+.second__block {
+  width: 87.5%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 15px;
+}
+
+.name {
+  color: #212529;
+  /* Paragraph/P2/Regular */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  letter-spacing: -0.36px;
+}
+
+img {
+  width: 86px;
+  height: 61px;
+}
+
+.img {
+  width: 95px;
+  height: 95px;
+  position: absolute;
+  align-self: flex-start;
+}
+
+.name-two {
+  color: #212529;
+  /* Paragraph/P1/Semibold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+
+.text {
+  color: #212529;
+  /* Paragraph/P3/Regular */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+  max-width: 220px;
+}
+
+.final__container {
+  width: 50px;
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+}/*# sourceMappingURL=style.css.map */
